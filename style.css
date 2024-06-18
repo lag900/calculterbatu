@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700;1000&family=Kdam+Thmor+Pro&display=swap');
+
+html
+{
+  box-sizing: border-box;
+  height: 100%;
+
+}
+* ,
+*::before,
+*::after
+{
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+   align-items: center;
+   background: linear-gradient(to bottom, #01413a,
+   #d1d7ce,#3db0b0);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-attachment: fixed;
+   font-family: 'cairo',Verdana,  Tahoma, sans-serif;
+   height: inherit;
+   display: flex;
+   justify-content: center;
+   font-display:swap;
+   
+   
+
+}
+
+
+.wallpapper
+{
+  backdrop-filter: blur(5.5px);
+  -webkit-bac: blur(5.5px);
+  border-radius:15px  ;
+  box-shadow: 0 4px 30px rgb(35, 35,35 ,0. 1);
+  backdrop-filter: blur(6.0Px);
+  -webkit-bac: blur(6.6px);
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgb(255, 255,255,0.01);
+  border-radius:15px  ;
+  box-shadow: 0 4px 30px rgb(35, 35,35 ,0. 1);
+  flex-basis: 400PX;
+  height: 550PX; 
+  padding:  20px 35px ;
+}
+
+.screen
+{
+  background-color: rgba(255,255, 255, 0.50);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(55.5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius:15px ;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  overflow: auto;
+  color: #232322;
+  font-size: 35px;
+  text-align: right;
+  padding: 20px;
+  width: 326px;
+
+
+}
+.row1,.row2,.row3,.row4,.row5
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+
+}
+.num,.char,.num0
+{
+  backdrop-filter:blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255,255, 255, 0.25);
+  border: 1px solid rgba(255,255,.255, 0.1);
+  border-radius: 14px;
+  box-shadow: 0 6px 30px rgba(35, 35, 35,0.1 );
+  color: #232322;
+  font-family: 'cairo';
+  font-size: 20px;
+  flex-basis: 20%;
+  height:65px  ;
+}
+.char
+{
+  flex-basis: 19%;
+  backdrop-filter:blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255,255, 255, 0.25);
+  border: 1px solid rgba(255,255,.255, 0.1);
+  border-radius: 14px;
+  box-shadow: 0 6px 30px rgba(35, 35, 35,0.1 );
+  color: #fffffd;
+  background: #035144;
+
+}
+.num0
+{
+  flex-basis: 48%;
+}
+.num0:hover
+{
+ color: inherit;
+ background: #035144;
+}
+.num:hover
+{
+  background: #035144;
+  color: white;
+  font-size: 30px;
+}
+.char:hover
+{
+  background: inherit;
+  color: inherit;
+  font-size: 30px;
+}
+.num0:active
+{
+  margin:2px;
+  flex-basis: 69%;
+  backdrop-filter:blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255,255, 255, 0.25);
+  border: 1px solid rgba(255,255,.255, 0.1);
+  border-radius: 14px;
+  box-shadow: 0 6px 30px rgba(255, 28, 28, 0.1);
+  color: #fffffd;
+  background: #035144;
+}
+.num:active
+{
+  margin:2px;
+  flex-basis: 20%;
+  backdrop-filter:blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255,255, 255, 0.25);
+  border: 1px solid rgba(255,255,.255, 0.1);
+  border-radius: 14px;
+  box-shadow: 0 6px 30px rgba(255, 28, 28, 0.1);
+  color: #fffffd;
+  background: #035144;
+}
+.char:active
+{
+  background: inherit;
+  color: inherit;
+}
